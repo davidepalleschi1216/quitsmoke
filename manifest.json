@@ -2,7 +2,7 @@
     "name": "QuitSmoke",
     "short_name": "QuitSmoke",
     "description": "QuitSmoke",
-    "start_url": "home.html",
+    "start_url": "/home.html",
     "display": "standalone",
     "background_color": "#FFFF",
     "theme_color": "#FFFF",
