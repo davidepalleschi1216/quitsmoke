@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Quit Smoke</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+    <script defer src="service-worker.js"></script>
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <h3 style="text-align: center;"> Quit Smoke</h3>
+  
+    <br>
+    <div class="ContatoreSigarette" style=" height: 150px; width: 100%; border-radius: 20px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.52) 0%, rgba(0, 0, 0, 0.52) 100%), url('img/img1.jpg'), lightgray 50%; background-size: cover;">
+        <table style=" padding-inline: 10px; height: 100%; width: 100%; color: white;">
+            <tr>
+                <td><h3 style="padding-bottom: 3px;">Sigarette Consumate</h3><br></td>
+
+            </tr>
+            <tr>
+                <td style=" display: flex; justify-content: flex-end; align-items: center; width: 100%;">
+                    <button style="width: 35px; height: 35px; background-color: white; border-radius: 50%; margin: 0 5px; color: black;" onclick="Rimuovi()">-</button>
+                    <h3 style="margin: 0; padding-inline: 10px; color: white;" id="Sigarette"></h3>
+                    <button style="width: 35px; height: 35px; background-color: white; border-radius: 50%; margin: 0 5px; color: black;" onclick="Aggiungi()">+</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    
+    <div class="ContatoreSigarette" style=" height: 150px; width: 100%; border-radius: 20px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.52) 0%, rgba(0, 0, 0, 0.52) 100%), url('img/img2.jpg'), lightgray 50%; background-size: cover;">
+        <table style=" padding-inline: 10px; height: 100%; width: 100%; color: white;">
+            <tr>
+                <td><h3>Soldi Consumati</h3><br></td>
+
+            </tr>
+            <tr>
+                <td style="display: flex; justify-content: flex-end; align-items: center; width: 100%;">
+                    <h3 style="padding-top: 10px; margin: 0; padding-inline: 10px; color: white;" id="Soldi"></h3>
+                </td>
+            </tr>
+        </table>
+    </div>
+<br>
+<div class="ContatoreSigarette" style=" height: 150px; width: 100%; border-radius: 20px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.52) 0%, rgba(0, 0, 0, 0.52) 100%), url('img/img3.jpg'), lightgray 50%; background-size: cover;">
+    <table style=" padding-inline: 10px; height: 100%; width: 100%; color: white;">
+        <tr>
+            <td><h3>Vita Persa</h3><br></td>
+
+        </tr>
+        <tr>
+            <td style="display: flex; justify-content: flex-end; align-items: center; width: 100%;">
+                <h3 style="padding-top: 10px; margin: 0; padding-inline: 10px; color: white;" id="Vita"></h3>
+            </td>
+        </tr>
+    </table>
+</div>
+    
+    
+   
+    
+    
+</body>
+</html>
